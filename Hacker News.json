@@ -1,0 +1,103 @@
+{
+  "0-100": [
+    {
+      "title": "Htmx changes license to Zero-Clause BSD",
+      "link": "https://github.com/bigskysoftware/htmx/commit/e16f1865a494b6281f8a44ed0db5338e718b3f07",
+      "comments": 10
+    },
+    {
+      "title": "Teach Yourself Programming in Ten Years (1998)",
+      "link": "https://norvig.com/21-days.html",
+      "comments": 72
+    },
+    {
+      "title": "Scrum Sucks",
+      "link": "https://blog.mb-consulting.dev/scrum-sucks-9960011fc5cf",
+      "comments": 3
+    },
+    {
+      "title": "FSRS: A modern, efficient spaced repetition algorithm",
+      "link": "https://github.com/open-spaced-repetition/fsrs4anki/wiki/ABC-of-FSRS",
+      "comments": 73
+    },
+    {
+      "title": "SQLite: Wal2 Mode",
+      "link": "https://www.sqlite.org/cgi/src/doc/wal2/doc/wal2.md",
+      "comments": 35
+    },
+    {
+      "title": "(Unsuccessfully) Fine-tuning GPT to play &quot;Connections&quot;",
+      "link": "https://www.danielcorin.com/posts/2024/fine-tuning-connections/\" rel=\"nofollow",
+      "comments": 2
+    },
+    {
+      "title": "Effortless OpenBSD Audio and Desktop Screen Recording Guide",
+      "link": "https://www.undeadly.org/cgi?action=article;sid=20240115170740\" rel=\"nofollow",
+      "comments": 13
+    },
+    {
+      "title": "Feynman Sprinkler [video]",
+      "link": "https://www.youtube.com/watch?v=ued2cEcfAio",
+      "comments": 7
+    },
+    {
+      "title": "What&#x27;s the Story on the &quot;Toxic Lady&quot;?",
+      "link": "https://www.straightdope.com/21342164/what-s-the-story-on-the-toxic-lady",
+      "comments": 15
+    },
+    {
+      "title": "Emu War",
+      "link": "https://en.wikipedia.org/wiki/Emu_War",
+      "comments": 8
+    },
+    {
+      "title": "Cat Drop",
+      "link": "https://en.wikipedia.org/wiki/Operation_Cat_Drop",
+      "comments": 39
+    },
+    {
+      "title": "MIT MicroMasters",
+      "link": "https://micromasters.mit.edu/\" rel=\"nofollow",
+      "comments": 3
+    },
+    {
+      "title": "ChatGPT does Advent of Code 2023",
+      "link": "https://www.themotte.org/post/797/chatgpt-vs-advent-of-code",
+      "comments": 3
+    }
+  ],
+  "101-200": [
+    {
+      "title": "Japan&#x27;s Comfort Food: The Onigiri",
+      "link": "https://one-from-nippon.ghost.io/onigiri/",
+      "comments": 135
+    },
+    {
+      "title": "A periodic table of visualization methods",
+      "link": "https://www.visual-literacy.org/periodic_table/periodic_table.html",
+      "comments": 136
+    },
+    {
+      "title": "Lago \u2013 open-source Stripe alternative is hiring a Founding Marketer",
+      "link": "https://www.ycombinator.com/companies/lago/jobs/twKO87q-founding-marketer",
+      "comments": 142
+    },
+    {
+      "title": "The neglected clean heat we flush down the drains",
+      "link": "https://www.bbc.co.uk/future/article/20240103-sewage-a-low-cost-low-carbon-way-to-warm-homes",
+      "comments": 181
+    },
+    {
+      "title": "FossifyOrg fork \u2013 floss replacement for Simple Mobile Tools",
+      "link": "https://github.com/FossifyOrg",
+      "comments": 191
+    },
+    {
+      "title": "Slashing Data Transfer Costs in AWS by 99%",
+      "link": "https://www.bitsand.cloud/posts/slashing-data-transfer-costs/",
+      "comments": 109
+    }
+  ],
+  "201-300": [],
+  "301-n": []
+}

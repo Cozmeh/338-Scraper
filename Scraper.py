@@ -1,7 +1,4 @@
-import urllib.request
-import re
-import json
-import csv
+import urllib.request , re , json , csv
 
 def scraper():
     url = "https://news.ycombinator.com/"
@@ -14,13 +11,6 @@ def scraper():
 
     mainContent = LinkTitlePattern.findall(html_content)
     comments = CommentPattern.findall(html_content)
-
-    # for content,comment in zip(mainContent, comments): 
-    #     print("Link : " + content[0] + "\nTitle : " + content[1] + "\nNo of Comments : " + comment + "\n")
-
-    # print(l[0][0][0]) = link
-    # print(l[0][0][1]) = title
-    # print(l[0][1]) = comments
 
     final = list(zip(mainContent, comments))
 
@@ -47,11 +37,19 @@ def scraper():
         else:
             result["301-n"].append(entry)
 
-    
     return result
 
-def toJson():
-    json.dump(scraper(), open("Hacker News.json", 'w'), indent=2)
+def export():
+    result = scraper()
+    json.dump(result, open("Hacker News.json", 'w'), indent=2)
+
+    
+    with open("Hacker News.csv", 'a') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Title", "Url", "Comment"])
+        for x in result:
+            for y in result[x]:
+                writer.writerow([y["title"], y["link"], y["comments"]])
 
 
-toJson()
+export()
